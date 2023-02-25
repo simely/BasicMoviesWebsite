@@ -84,12 +84,17 @@
     color: white;
     font-size: 10px;
     text-align: center;
+    display: none;
 }
 
 .card:hover{
     transform: translateY(-10px);
     transition: ease 0.5s;
     border-color: white;
+}
+
+.card:hover .card-title{
+    display: block;
 }
 
 .card.card-1{
